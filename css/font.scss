@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Epilogue-Bold';
+    src: url('../font/Epilogue-Bold.woff2') format('woff2'),
+        url('../font/Epilogue-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Epilogue-Light';
+    src: url('../font/Epilogue-Light.woff2') format('woff2'),
+        url('../font/Epilogue-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Epilogue-SemiBold';
+    src: url('../font/Epilogue-SemiBold.woff2') format('woff2'),
+        url('../font/Epilogue-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Epilogue-Medium';
+    src: url('../font/Epilogue-Medium.woff2') format('woff2'),
+        url('../font/Epilogue-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Epilogue-Regular';
+    src: url('../font/Epilogue-Regular.woff2') format('woff2'),
+        url('../font/Epilogue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+$light: 'Epilogue-Light';
+$regular: 'Epilogue-Regular';
+$medium: 'Epilogue-Medium';
+$semibold: 'Epilogue-SemiBold';
+$bold: 'Epilogue-Bold';
