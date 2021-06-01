@@ -1,3 +1,4 @@
+@import 'color.scss';
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -21,8 +22,9 @@
    */
   
   body {
-    margin: 0;
+    margin: 30px 0px;
     font-family: $regular;
+    line-height: 10px;
   }
 
 ul{
@@ -32,6 +34,7 @@ li{
   list-style: none;
 }
 a{
+  color: $black;
   text-decoration: none;
 }
 
