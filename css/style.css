@@ -61,6 +61,7 @@ body {
   margin: 60px 0px;
   font-family: "Epilogue-Regular";
   line-height: 10px;
+  background-color: #FDFDFD;
 }
 
 ul {
@@ -422,9 +423,39 @@ template {
       grid-template-columns: 1fr 1fr auto;
 }
 
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .hero-heading {
   font-size: 75px;
   font-family: "Epilogue-SemiBold";
+}
+
+.sub-hero-heading {
+  font-weight: 500;
+  line-height: 2.20;
+  margin: 60px 0;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+.w-93 {
+  width: 93% !important;
 }
 
 .float-left {
@@ -433,12 +464,6 @@ template {
 
 .float-right {
   float: right;
-}
-
-.align-center {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .bg-heading {
@@ -450,6 +475,51 @@ template {
   color: #74B0FF;
   opacity: 0.1;
   margin: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top-30 {
+  top: -30px;
+}
+
+.mt-60 {
+  margin-top: 120px;
+}
+
+.text-box {
+  border: 1px solid #1E1E1E;
+  border-radius: 6px;
+  height: 80px;
+  width: 86%;
+  padding: 0 20px;
+}
+
+.text-box::-webkit-input-placeholder {
+  color: #B1B1B1;
+}
+
+.text-box:-ms-input-placeholder {
+  color: #B1B1B1;
+}
+
+.text-box::-ms-input-placeholder {
+  color: #B1B1B1;
+}
+
+.text-box::placeholder {
+  color: #B1B1B1;
+}
+
+textarea {
+  padding: 20px 20px !important;
+  height: 200px !important;
 }
 
 .c-blue {
@@ -646,5 +716,47 @@ ul.navigation-ul li:last-child::after {
 
 .coming-soon p {
   margin: 50px 0px 0px 0;
+}
+
+.story-heading h1::before {
+  content: '';
+  display: none !important;
+}
+
+.story .story-sec {
+  margin: 300px 0;
+}
+
+.story .story-sec .right-sec img {
+  width: 100%;
+}
+
+.story .story-sec .left-sec h1 {
+  line-height: 1.5;
+  margin: 0;
+}
+
+.story .story-sec .left-sec h3 {
+  font-weight: 500;
+  line-height: 2.20;
+  margin: 20px 0;
+}
+
+.contact {
+  margin-top: 200px;
+}
+
+.contact form .form-box .textbox-container {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.contact form .form-box .textbox-container label {
+  position: absolute;
+  top: -30px;
+  left: 0;
 }
 /*# sourceMappingURL=style.css.map */
