@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="10.419" height="9.117" viewBox="0 0 10.419 9.117">
   <g id="arrow-right-short" transform="translate(-9 -10.124)">
-    <path id="Path_9848" data-name="Path 9848" d="M18.19,10.315a.651.651,0,0,1,.922,0l3.907,3.907a.651.651,0,0,1,0,.922L19.112,19.05a.652.652,0,1,1-.922-.922l3.446-3.446L18.19,11.236a.651.651,0,0,1,0-.922Z" transform="translate(-3.791)" fill="#74b0ff" fill-rule="evenodd"/>
-    <path id="Path_9849" data-name="Path 9849" d="M9,17.526a.651.651,0,0,1,.651-.651h8.464a.651.651,0,1,1,0,1.3H9.651A.651.651,0,0,1,9,17.526Z" transform="translate(0 -2.844)" fill="#74b0ff" fill-rule="evenodd"/>
+    <path id="Path_9848" data-name="Path 9848" d="M18.19,10.315a.651.651,0,0,1,.922,0l3.907,3.907a.651.651,0,0,1,0,.922L19.112,19.05a.652.652,0,1,1-.922-.922l3.446-3.446L18.19,11.236a.651.651,0,0,1,0-.922Z" transform="translate(-3.791)" fill="#5a38fc" fill-rule="evenodd"/>
+    <path id="Path_9849" data-name="Path 9849" d="M9,17.526a.651.651,0,0,1,.651-.651h8.464a.651.651,0,1,1,0,1.3H9.651A.651.651,0,0,1,9,17.526Z" transform="translate(0 -2.844)" fill="#5a38fc" fill-rule="evenodd"/>
   </g>
 </svg>

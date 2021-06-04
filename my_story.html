@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Faseeh Yasin</title>
   <link rel="stylesheet" href="css/style.css">
+  <link href="css/AOS.css" rel="stylesheet">
 </head>
 <body>
   <div class="container-fluid">
@@ -25,46 +26,48 @@
       </div>
 
       <div class="hero-section align-center">
-        <div class="hero-left">
-          <img src="Images/blackegg.gif" alt="">
+        <div class="hero-left" data-aos="fade-right">
+          <img src="Images/Aboutme.gif" alt="">
         </div>
         <div class="hero-right story-heading">
-          <h1 class="hero-heading">About me</h1>
-          <h3>A UI/UX Designer who thrives in striking a balance between clean and considered outcomes.</h3>
+          <h1 class="hero-heading c-blue" data-aos="fade-left"  data-aos-duration="2000" data-aos-offset="500"
+          data-aos-duration="700" data-aos-easing="ease-in-sine">About me</h1>
+          <h3 data-aos="fade-left" data-aos-duration="2000" data-aos-offset="500"
+          data-aos-duration="3000" data-aos-easing="ease-in-sine">A UI/UX Designer who thrives in striking a balance between clean and considered outcomes.</h3>
         </div>
       </div>
       
       <div class="story">
 				<div class="story-sec">
 					<div class="grid temp-2-col">
-						<div class="right-sec">
-							<img src="Images/intoUX.gif" alt="">
-						</div>
-						<div class="left-sec">
+            <div data-aos="fade-right" class="left-sec">
 							<h1 class="hero-heading c-blue">Getting into UI/UX</h1>
 							<h3>A UI/UX Designer who thrives in striking a balance between clean and considered outcomes.</h3>
 						</div>
+						<div data-aos="fade-left" class="right-sec">
+							<img src="Images/intoUX.gif" alt="">
+						</div>
 					</div>
 				</div>
 				<div class="story-sec">
 					<div class="grid temp-2-col">
-						<div class="left-sec">
+            <div data-aos="fade-right" class="right-sec">
+							<img src="Images/Passionate.gif" alt="">
+						</div>
+						<div data-aos="fade-left" class="left-sec">
 							<h1 class="hero-heading c-blue">Passionate about</h1>
 							<h3>A UI/UX Designer who thrives in striking a balance between clean and considered outcomes.</h3>
 						</div>
-						<div class="right-sec">
-							<img src="Images/Passionate.gif" alt="">
-						</div>
 					</div>
 				</div>
 				<div class="story-sec">
 					<div class="grid temp-2-col">
-						<div class="right-sec">
-							<img src="Images/Afterworking.gif" alt="">
-						</div>
-						<div class="left-sec">
+            <div data-aos="fade-right" class="left-sec">
 							<h1 class="hero-heading c-blue">After Working</h1>
 							<h3>A UI/UX Designer who thrives in striking a balance between clean and considered outcomes.</h3>
+						</div>
+						<div data-aos="fade-left" class="right-sec">
+							<img src="Images/Afterworking.gif" alt="">
 						</div>
 					</div>
 				</div>
@@ -99,6 +102,9 @@
       </div>
     </div>
   </div>
+<script src="js/smooth-scroller.js"></script>
+<script src="js/AOS.js"></script>
+<script src="js/jquery-3-6.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

@@ -488,7 +488,7 @@ template {
 
 .bg-heading h1 {
   font-size: 540px;
-  color: #74B0FF;
+  color: #5A38FC;
   opacity: 0.1;
   margin: 0;
 }
@@ -515,6 +515,10 @@ template {
 
 .mt-70 {
   margin-top: 70px;
+}
+
+.mt-90 {
+  margin-top: 90px;
 }
 
 .text-box {
@@ -557,15 +561,15 @@ textarea {
 
 .button {
   padding: 20px 60px;
-  background: #74B0FF;
+  background: #5A38FC;
   color: #FFFFFF;
   border-radius: 6px;
 }
 
 .border-button {
   padding: 20px 60px;
-  border: 2px solid #74B0FF;
-  color: #74B0FF;
+  border: 2px solid #5A38FC;
+  color: #5A38FC;
   border-radius: 6px;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -574,7 +578,7 @@ textarea {
 .border-button:hover {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-  background: #74B0FF;
+  background: #5A38FC;
   color: #FFFFFF;
 }
 
@@ -583,7 +587,7 @@ textarea {
 }
 
 .c-blue {
-  color: #74B0FF;
+  color: #5A38FC;
 }
 
 .c-white {
@@ -617,7 +621,7 @@ textarea {
 .navigation-ul li a:hover {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-  color: #74B0FF;
+  color: #5A38FC;
 }
 
 ul.navigation-ul li:first-child::before {
@@ -669,7 +673,7 @@ ul.navigation-ul li:last-child::after {
 }
 
 .hero-section .hero-right h1:nth-child(2) {
-  color: #74B0FF;
+  color: #5A38FC;
   font-weight: 500;
 }
 
@@ -687,7 +691,7 @@ ul.navigation-ul li:last-child::after {
 }
 
 .hero-section .hero-right .social-row li a {
-  border: 2px solid #74B0FF;
+  border: 2px solid #5A38FC;
   border-radius: 50px;
   margin: 0 20px 0 0px;
 }
@@ -723,7 +727,7 @@ ul.navigation-ul li:last-child::after {
 }
 
 .hero-section .quote-right h3 {
-  color: #74B0FF;
+  color: #5A38FC;
   font-weight: 500;
 }
 
@@ -762,7 +766,7 @@ ul.navigation-ul li:last-child::after {
 .recent-work .work .project-box .project-content .project h2 {
   margin: 50px 0 30px;
   font-family: "Epilogue-Bold";
-  color: #74B0FF;
+  color: #5A38FC;
   font-size: 32px;
 }
 
@@ -782,6 +786,7 @@ ul.navigation-ul li:last-child::after {
   padding: 42px;
   width: 50%;
   margin: 210px auto;
+  color: #5A38FC;
 }
 
 .coming-soon p {
@@ -794,7 +799,7 @@ ul.navigation-ul li:last-child::after {
 }
 
 .story .story-sec {
-  margin: 300px 0;
+  margin: 400px 0;
 }
 
 .story .story-sec .right-sec img {
@@ -833,7 +838,7 @@ ul.navigation-ul li:last-child::after {
 .footer {
   margin-top: 278px;
   padding: 40px 0px;
-  background: #74B0FF;
+  background: #5A38FC;
   color: #FFFFFF;
 }
 
