@@ -3,6 +3,7 @@
 @import 'resetcss.scss';
 
 
+
 .container-fluid{
   width: 100%;
   margin: 0;
@@ -211,7 +212,7 @@ ul.navigation-ul li:last-child::after{
         a{
           border: 2px solid $blue;
           border-radius: 50px;
-          margin: 0 20px 0 0px;
+          margin: 0 10px 0 0px;
         }
         .fb-head{
           padding: 22px 16px 5px 17px;
@@ -397,7 +398,7 @@ ul.navigation-ul li:last-child::after{
 //BACK BTN
 .back-btn{
   position: fixed;
-  top: 3%;
+  top: 5%;
   left: 3%;
   a{
     font-size: 22px;

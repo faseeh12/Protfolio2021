@@ -693,7 +693,7 @@ ul.navigation-ul li:last-child::after {
 .hero-section .hero-right .social-row li a {
   border: 2px solid #5A38FC;
   border-radius: 50px;
-  margin: 0 20px 0 0px;
+  margin: 0 10px 0 0px;
 }
 
 .hero-section .hero-right .social-row li .fb-head {
@@ -883,7 +883,7 @@ ul.navigation-ul li:last-child::after {
 
 .back-btn {
   position: fixed;
-  top: 3%;
+  top: 5%;
   left: 3%;
 }
 
