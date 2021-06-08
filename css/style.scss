@@ -3,7 +3,16 @@
 @import 'resetcss.scss';
 
 
-
+.loader{
+  display: block;
+  background: #333;
+  transition: 0.3s ease-in-out;
+  width: 100%;
+  height: 100vh;
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+}
 .container-fluid{
   width: 100%;
   margin: 0;
@@ -160,7 +169,7 @@ ul.navigation-ul li:first-child::before{
   border-bottom: 1px solid #333;
   left: 0;
   width: 16%;
-  height: 10px;
+  height: 4px;
 }
 ul.navigation-ul li:last-child::after{
   content: '';
@@ -168,7 +177,7 @@ ul.navigation-ul li:last-child::after{
   border-bottom: 1px solid #333;
   right: 0;
   width: 13%;
-  height: 10px;
+  height: 4px;
 }
 
 
@@ -242,6 +251,15 @@ ul.navigation-ul li:last-child::after{
       color: $blue;
       font-weight: 500;
     }
+  }
+}
+
+//Companies
+.companies{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  img{
+    max-width: 100%;
   }
 }
 
