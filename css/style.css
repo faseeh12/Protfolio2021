@@ -743,17 +743,6 @@ ul.navigation-ul li:last-child::after {
   font-weight: 500;
 }
 
-.companies {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.companies img {
-  max-width: 100%;
-}
-
 .recent-work {
   position: relative;
   margin-top: 400px;
@@ -841,7 +830,7 @@ ul.navigation-ul li:last-child::after {
 }
 
 .contact {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .contact form .form-box .textbox-container {
