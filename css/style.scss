@@ -439,8 +439,54 @@ ul.navigation-ul li:last-child::after{
   .sub-hero-heading{
     font-size: 75px;
   }
-  .navbar-content{
-    display: none;
+  .header{
+    .navbar-content{
+      display: none;
+    }
+    .mobile-navbar{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 0 70px;
+      .m-logo{
+        a{
+          img{
+            width: 25%;
+          }
+        }
+      }
+      .hamburger{
+        img{
+          width: 15%;
+          float: right;  
+        }
+      }
+    }
+    .hamburger-menu{
+      display: none;
+      position: fixed;
+      top: 0;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      background: $white;
+      img{
+        width: 5%;
+        float: right;
+        margin: 130px 110px;
+      }
+      ul{
+        margin-top: 300px;
+        li{
+          a{
+            font-family: $medium;
+            font-size: 75px;
+            line-height: 3em;
+          }
+        }
+      }
+    }
   }
   .hero-section{
     text-align: center;
@@ -453,17 +499,85 @@ ul.navigation-ul li:last-child::after{
         font-size: 60px;
       }
       .social-row{
+        justify-content: space-evenly;
+        margin-top: 200px;
         li{
           .fb-head{
-            padding: 30px;
+            padding: 140px 90px 60px;
+            border-radius: 200px;
+            border: 6px solid $blue;
             img{
-              width: 10%;
+              width: 20%;
+              max-width: 100%;
+            }
+          }
+          .insta-head{
+            padding: 130px 70px 70px;
+            border-radius: 200px;
+            border: 6px solid $blue;
+            img{
+              width: 40%;
+              max-width: 100%;
+            }
+          }
+          .behance-head{
+            padding: 130px 70px 70px;
+            border-radius: 200px;
+            border: 6px solid $blue;
+            img{
+              width: 45%;
+              max-width: 100%;
+            }
+          }
+          .linkedin-head{
+            padding: 140px 70px 60px;
+            border-radius: 200px;
+            border: 6px solid $blue;
+            img{
+              width: 40%;
               max-width: 100%;
             }
           }
         }
       } 
     }
+  }
+  .recent-work{
+    margin-top: 800px;
+    .bg-heading{
+
+    }
+    .work{
+      h1{
+        font-size: 100px;
+        width: 42%;
+      }
+    }
+    .project-box{
+      .project-content{
+        .project{
+          div{
+            h2{
+              font-size: 100px !important;
+            }
+            p{
+              font-size: 60px;
+              width: 100% !important;
+              margin-top: 150px !important;
+            }
+            a{
+              font-size: 50px;
+              img{
+                width: 10%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer{
+
   }
 }
 
@@ -479,8 +593,26 @@ ul.navigation-ul li:last-child::after{
   img{
     width: 100%;
   }
-  .navbar-content{
-    display: none;
+  .header{
+    .navbar-content{
+      display: none;
+    }
+    .mobile-navbar{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-evenly;
+      align-items: center;
+      .m-logo{
+        img{
+          width: 10%;
+        }
+      }
+      .hamburger{
+        .hamburger-menu{
+  
+        }
+      }
+    }
   }
   .hero-section{
     grid-template-columns: 1fr;

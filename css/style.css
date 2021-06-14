@@ -936,8 +936,50 @@ ul.navigation-ul li:last-child::after {
   .sub-hero-heading {
     font-size: 75px;
   }
-  .navbar-content {
+  .header .navbar-content {
     display: none;
+  }
+  .header .mobile-navbar {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 70px;
+  }
+  .header .mobile-navbar .m-logo a img {
+    width: 25%;
+  }
+  .header .mobile-navbar .hamburger img {
+    width: 15%;
+    float: right;
+  }
+  .header .hamburger-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+  }
+  .header .hamburger-menu img {
+    width: 5%;
+    float: right;
+    margin: 130px 110px;
+  }
+  .header .hamburger-menu ul {
+    margin-top: 300px;
+  }
+  .header .hamburger-menu ul li a {
+    font-family: "Epilogue-Medium";
+    font-size: 75px;
+    line-height: 3em;
   }
   .hero-section {
     text-align: center;
@@ -950,12 +992,68 @@ ul.navigation-ul li:last-child::after {
   .hero-section .hero-right h3 {
     font-size: 60px;
   }
+  .hero-section .hero-right .social-row {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-top: 200px;
+  }
   .hero-section .hero-right .social-row li .fb-head {
-    padding: 30px;
+    padding: 140px 90px 60px;
+    border-radius: 200px;
+    border: 6px solid #5A38FC;
   }
   .hero-section .hero-right .social-row li .fb-head img {
-    width: 10%;
+    width: 20%;
     max-width: 100%;
+  }
+  .hero-section .hero-right .social-row li .insta-head {
+    padding: 130px 70px 70px;
+    border-radius: 200px;
+    border: 6px solid #5A38FC;
+  }
+  .hero-section .hero-right .social-row li .insta-head img {
+    width: 40%;
+    max-width: 100%;
+  }
+  .hero-section .hero-right .social-row li .behance-head {
+    padding: 130px 70px 70px;
+    border-radius: 200px;
+    border: 6px solid #5A38FC;
+  }
+  .hero-section .hero-right .social-row li .behance-head img {
+    width: 45%;
+    max-width: 100%;
+  }
+  .hero-section .hero-right .social-row li .linkedin-head {
+    padding: 140px 70px 60px;
+    border-radius: 200px;
+    border: 6px solid #5A38FC;
+  }
+  .hero-section .hero-right .social-row li .linkedin-head img {
+    width: 40%;
+    max-width: 100%;
+  }
+  .recent-work {
+    margin-top: 800px;
+  }
+  .recent-work .work h1 {
+    font-size: 100px;
+    width: 42%;
+  }
+  .recent-work .project-box .project-content .project div h2 {
+    font-size: 100px !important;
+  }
+  .recent-work .project-box .project-content .project div p {
+    font-size: 60px;
+    width: 100% !important;
+    margin-top: 150px !important;
+  }
+  .recent-work .project-box .project-content .project div a {
+    font-size: 50px;
+  }
+  .recent-work .project-box .project-content .project div a img {
+    width: 10%;
   }
 }
 
@@ -971,8 +1069,23 @@ ul.navigation-ul li:last-child::after {
   img {
     width: 100%;
   }
-  .navbar-content {
+  .header .navbar-content {
     display: none;
+  }
+  .header .mobile-navbar {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .mobile-navbar .m-logo img {
+    width: 10%;
   }
   .hero-section {
     -ms-grid-columns: 1fr;

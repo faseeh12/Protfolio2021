@@ -39,4 +39,12 @@ $(function () {
   })
 })
 
+//Menubar
+$('.hamburger').click(function(){
+  $('.hamburger-menu').css('display','block');
+})
+$('.close-menu').click(function(){
+  $('.hamburger-menu').css('display','none');
+})
+
 
