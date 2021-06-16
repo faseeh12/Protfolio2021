@@ -875,9 +875,10 @@ ul.navigation-ul li:last-child::after {
 }
 
 .footer .footer-box ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   padding: 0 0 26px 0;
 }
 
@@ -923,9 +924,15 @@ ul.navigation-ul li:last-child::after {
 }
 
 @media (min-width: 360px) and (max-width: 375px) {
+  .p-view {
+    display: none;
+  }
   .container-fluid {
     width: 100%;
     margin: 0;
+  }
+  .m-mt-170 {
+    margin-top: 170px;
   }
   img {
     width: 100%;
@@ -1034,26 +1041,121 @@ ul.navigation-ul li:last-child::after {
     width: 40%;
     max-width: 100%;
   }
+  .hero-section .quote-right {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .hero-section .quote-right img {
+    width: 5%;
+  }
+  .hero-section .quote-right img:nth-child(1) {
+    float: left;
+  }
+  .hero-section .quote-right h1 {
+    font-size: 75px;
+  }
+  .hero-section .quote-right h3 {
+    font-size: 50px;
+    float: left;
+  }
+  .coming-soon {
+    width: 80%;
+    padding: 80px;
+  }
+  .coming-soon h1 {
+    font-size: 60px;
+  }
+  .coming-soon p {
+    margin-top: 100px;
+    font-size: 40px;
+  }
   .recent-work {
     margin-top: 800px;
+  }
+  .recent-work .bg-heading {
+    left: 2%;
+  }
+  .recent-work .bg-heading h1 {
+    font-size: 360px;
   }
   .recent-work .work h1 {
     font-size: 100px;
     width: 42%;
   }
-  .recent-work .project-box .project-content .project div h2 {
-    font-size: 100px !important;
+  .recent-work .project-box .project-content .project {
+    margin: 0 0 600px 0 !important;
   }
-  .recent-work .project-box .project-content .project div p {
-    font-size: 60px;
-    width: 100% !important;
+  .recent-work .project-box .project-content .project .m-view {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .recent-work .project-box .project-content .project .m-view h2 {
+    font-size: 100px !important;
     margin-top: 150px !important;
   }
-  .recent-work .project-box .project-content .project div a {
+  .recent-work .project-box .project-content .project .m-view p {
+    font-size: 60px;
+    width: 100% !important;
+    margin-top: 80px !important;
+  }
+  .recent-work .project-box .project-content .project .m-view a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 50px;
+    width: 30%;
+  }
+  .recent-work .project-box .project-content .project .m-view a img {
+    margin-left: 30px;
+    width: 13%;
+  }
+  .footer {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+  .footer .footer-box {
+    margin: 0 50px;
+  }
+  .footer .footer-box h1 {
+    font-size: 95px;
+    margin: 60px 0 60px 0;
+  }
+  .footer .footer-box h3 {
+    font-size: 55px;
+  }
+  .footer .footer-box ul {
+    margin: 120px 0 0;
+  }
+  .footer .footer-box ul li {
+    padding: 0 0 50px 0;
+  }
+  .footer .footer-box ul li a {
     font-size: 50px;
   }
-  .recent-work .project-box .project-content .project div a img {
+  .footer .footer-box ul li a img {
+    max-width: 20%;
+  }
+  .footer .footer-box .m-right {
+    margin-top: 115px;
+  }
+  .footer .footer-box .m-right h4, .footer .footer-box .m-right p {
+    font-size: 50px;
+  }
+  .footer .footer-box .m-right h4 {
+    margin: 160px 0 70px;
+  }
+  .footer .footer-box .m-right a {
+    font-size: 50px;
+  }
+  .footer .footer-box .m-right a img {
     width: 10%;
+  }
+  .back-btn {
+    display: none;
   }
 }
 
