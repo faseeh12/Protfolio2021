@@ -2036,11 +2036,80 @@ ul.navigation-ul li:last-child::after {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .header .navbar-content .navigation-ul li a {
+    font-size: 30px;
+  }
+  .header .navbar-content .navigation-ul li a:nth-last-child():after {
+    right: 30px;
+    width: 8%;
+  }
+  .header .navbar-content ul.navigation-ul li:first-child::before {
+    left: 40px;
+    width: 10%;
+  }
+  .header .navbar-content ul.navigation-ul li:last-child::after {
+    right: 40px;
+    width: 8%;
+  }
+  .hero-section {
+    margin: 100px 60px;
+  }
   .hero-section .hero-left img {
     width: 100%;
   }
+  .hero-section .hero-right {
+    margin: 50px 0 0px 60px;
+  }
   .hero-section .hero-right h3 {
     font-size: 28px;
+  }
+  .recent-work .bg-heading {
+    left: 6%;
+  }
+  .recent-work .bg-heading h1 {
+    font-size: 350px;
+  }
+  .recent-work .work h1 {
+    font-size: 60px;
+  }
+  .recent-work .work h1:before {
+    width: 16%;
+  }
+  .recent-work .work .project-box {
+    margin: 200px 40px;
+  }
+  .recent-work .work .project-box .project-content .project img {
+    width: 100%;
+  }
+  .recent-work .work .project-box .project-content .project h2 {
+    font-size: 60px;
+    margin: 80px 0 0px 0;
+  }
+  .recent-work .work .project-box .project-content .project p {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 60px;
+  }
+  .recent-work .work .project-box .project-content .project .p-view a {
+    width: 46%;
+    font-size: 30px;
+  }
+  .recent-work .work .project-box .project-content .project .p-view a img {
+    width: 11%;
+  }
+  .recent-work .work .project-box .project-content .project .m-view {
+    display: none;
+  }
+  .footer {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+  .footer .footer-box .sub-hero-heading {
+    font-size: 40px;
+  }
+  .footer .footer-box .hero-heading {
+    font-size: 110px;
   }
   .back-btn {
     display: none;

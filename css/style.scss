@@ -1471,15 +1471,99 @@ ul.navigation-ul li:last-child::after{
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+  .header{
+    .navbar-content{
+      .navigation-ul{
+        li{
+          a{
+            font-size: 30px;
+            &:nth-last-child():after{
+              right: 30px;
+              width: 8%;
+            }
+          }
+        }
+      }
+      ul.navigation-ul li:first-child::before{
+        left: 40px;
+        width: 10%;
+      }
+      ul.navigation-ul li:last-child::after{
+        right: 40px;
+        width: 8%;
+      }
+    }
+  }
+
   .hero-section{
+    margin: 100px 60px;
     .hero-left{
       img{
         width: 100%;
       }
     }
     .hero-right{
+      margin: 50px 0 0px 60px;
       h3{
         font-size: 28px;
+      }
+    }
+  }
+  .recent-work{
+    .bg-heading{
+      left: 6%;
+      h1{
+        font-size: 350px;
+      }
+    }
+    .work{
+      h1{
+        font-size: 60px;
+        &:before{
+          width: 16%;
+        }
+      }
+      .project-box{
+        margin: 200px 40px;
+        .project-content{
+          .project{
+            img{
+              width: 100%;
+            }
+            h2{
+              font-size: 60px;
+              margin: 80px 0 0px 0;
+            }
+            p{
+              width: 100%;
+              font-size: 25px;
+              margin-top: 60px;
+            }
+            .p-view{
+              a{
+                width: 46%;
+                font-size: 30px;
+                img{
+                  width: 11%;
+                }
+              }
+            }
+            .m-view{
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer{
+    width: min-content;
+    .footer-box{
+      .sub-hero-heading{
+        font-size: 40px;
+      }
+      .hero-heading{
+        font-size: 110px;
       }
     }
   }
