@@ -683,19 +683,20 @@ ul.navigation-ul li:last-child::after {
 
 .hero-section .hero-right h1 {
   position: relative;
+  color: #5A38FC;
 }
 
 .hero-section .hero-right h1:first-child::before {
   content: '';
   position: absolute;
-  border-bottom: 3px solid #1E1E1E;
+  border-bottom: 3px solid #5A38FC;
   width: 20%;
   left: -25%;
   top: 50%;
 }
 
 .hero-section .hero-right h1:nth-child(2) {
-  color: #5A38FC;
+  color: #1E1E1E;
   font-weight: 500;
 }
 
@@ -931,6 +932,34 @@ ul.navigation-ul li:last-child::after {
   padding: 0 15px 0 0;
   -webkit-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
+}
+
+.coming-soon-box {
+  position: relative;
+}
+
+.coming-soon-box .coming-soon-center {
+  width: 50%;
+  margin: 160px auto;
+  text-align: center;
+}
+
+.coming-soon-box .cs-heading {
+  line-height: normal;
+  font-size: 4em;
+  font-family: "Epilogue-Bold";
+  background-color: red;
+  background-image: linear-gradient(45deg, #5A38FC, #1E1E1E);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.coming-soon-box img {
+  width: 100%;
 }
 
 @media (min-width: 360px) and (max-width: 375px) {
