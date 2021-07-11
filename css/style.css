@@ -555,6 +555,10 @@ template {
   color: #B1B1B1;
 }
 
+.m-view {
+  display: none;
+}
+
 textarea {
   padding: 20px 20px !important;
   height: 200px !important;
